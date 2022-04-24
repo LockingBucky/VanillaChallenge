@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Bucky's Todo List</title>
+</head>
+<body>
+    <div id="border_clock"><h2 id="clock">00:00:00</h2></div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="border_quote">
+        <form id="main_quote_form">
+        <div id="quote">
+        <span></span>
+        <span></span>
+        </div>
+    </form>
+   </div>
+   <div id="border_greeting">
+      <div id="main_greeting">
+        <span id="greeting" class="hidden"></span>
+      </div>
+     <div id="main_text_btn">
+      <form class="hidden" id="login_form">
+        <input id="login_text" type="text" placeholder="What is your name?" style="width: 180px;" maxlength="15" required>
+        <input id="login_btn" type="submit" value="Go">
+      </form>
+     </div>
+     <div id="border_todo">
+        <form id="todo_form">
+            <input id="todo_submit" type="text" placeholder="Write a To do and press Enter!" style="width:300px" required/>
+        </form>
+        <ul id="todo_list">
+        </ul>
+     </div>
+   </div>
+</body>
+<script src="3greetings.js"></script>
+<script src="4quotes.js"></script>
+<script src="5todolist.js"></script>
+<script src="6background.js"></script>
+<script src="7clock.js"></script>
+<script src="8weather.js"></script>
+</html>

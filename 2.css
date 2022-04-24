@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:60%;
+    }
+
+.hidden {
+    display: none;
+}
+
+#border_clock {
+    display: flex;
+    background-color: #fff;
+    max-width: 150px;
+    border-radius: 30px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 30px;
+    justify-content: center;
+    font-family: 'OTEnjoystoriesBA';
+}
+
+#weather {
+    display: flex;
+    background-color: #fff;
+    max-width: 400px;
+    border-radius: 30px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 30px;
+    justify-content: center;
+    font-family: 'OTEnjoystoriesBA';
+}
+
+
+#border_quote{
+    background-color: #fff;
+    max-width: 750px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px 30px;   
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_quote_form {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: thick;
+}
+
+#quote {
+    font-size: 35px;
+    font-family: 'OTEnjoystoriesBA';
+}
+
+/* Main Text & Greeting */
+#main_text_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_form {
+    justify-content: center;
+    align-items: center;
+}
+
+#login_text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'GmarketSansBold';
+}
+#login_btn {
+    align-items: center;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    font-family: 'GmarketSansBold';
+}
+
+#main_greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_greeting span {
+    padding: 10px 30px;   
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-family: 'OTEnjoystoriesBA';
+}
+
+/* 결과 로딩 */
+.result_loading {
+    display: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.result_loading .img_wrap {
+    width: 100px;
+    height: 100px;
+}
+
+.result_loading .img_wrap img {
+    width: 100%;
+    height: auto;
+    animation: rotate 1.1s infinite linear; /*linear 가 없으면 중간에 돌다가 멈춤 */
+}
+
+#border_todo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#todo_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'OTEnjoystoriesBA';
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 29px;   
+}
+#todo_list {
+    justify-content: center;
+    align-items: center;
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 45px;
+    max-width: 750px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
