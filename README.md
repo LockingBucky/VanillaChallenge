@@ -1,7 +1,3 @@
-# VanillaChallenge
-바닐라챌린지완성본 repo
-
-
 Toy Project (Todo list)
 ===========
 (HTML, CSS, JavaScript)
@@ -11,4 +7,4 @@ Toy Project (Todo list)
 - 開発者になるために入力窓に数字を入力すると、平均値の時間を知らせるホームページ。
 
 
-![10000hours](./10000hours.png)
+![TodoList](./TodoList.png)
