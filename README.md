@@ -1,4 +1,4 @@
-Toy Project (Todo list)
+Toy Project (Todo list) 
 ===========
 (HTML, CSS, JavaScript)
 
